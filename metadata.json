@@ -1,5 +1,5 @@
 {
-  "name": "Copy of Prospect AI Matcher",
-  "description": "An intelligent web application to match your professional services with prospective business clients, generate detailed analyses, and draft personalized outreach emails.",
+  "name": "Generador de Prospectos AI",
+  "description": "Una aplicación web para ayudar a los usuarios a gestionar su perfil, definir servicios y utilizar la IA para encontrar, analizar y contactar prospectos de negocio.",
   "requestFramePermissions": []
 }

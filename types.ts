@@ -1,39 +1,21 @@
 
-export interface UserProfile {
+export interface User {
   name: string;
   email: string;
   website: string;
 }
 
 export interface Prospect {
-  id: string;
   companyName: string;
-  industry: string;
-  location: string;
-  website: string;
-  contact: {
-    name: string;
-    title: string;
-    email: string;
-  };
-  analysis?: {
-    hiringProbability: number;
-    analysis: string;
-  };
+  linkedinUrl: string;
+  contactPerson: string;
+  contactEmail: string;
+  hiringProbability: number;
 }
 
-export interface GeneratedEmail {
-  prospectId: string;
-  prospectName: string;
-  recipientEmail: string;
-  subject: string;
-  body: string;
-}
-
-export enum AppSection {
+export enum View {
   PROFILE = 'Perfil',
   SERVICES = 'Servicios',
   SEARCH = 'Búsqueda',
-  RESULTS = 'Resultados',
-  EMAILS = 'Emails',
+  SAVED_EMAILS = 'Emails Guardados'
 }
